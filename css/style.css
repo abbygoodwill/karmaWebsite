@@ -16,6 +16,9 @@ html {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -96,7 +99,9 @@ button:hover {
 .cases h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
-	font-weight;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.75rem;
 }
 .cases .content {
 	color: #1d1e21;
@@ -111,7 +116,11 @@ button:hover {
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 .devices {
-	flex-grow: <1>;
+	display: flex;
+	flex-flow: row wrap;
 }
