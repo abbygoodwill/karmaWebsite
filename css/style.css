@@ -93,3 +93,15 @@ html {
 button:hover {
 	background-color: #f54e18
 }
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight;
+}
+.cases .content {
+	color: #1d1e21;
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
