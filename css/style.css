@@ -105,3 +105,13 @@ button:hover {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+.devices {
+	flex-grow: <1>;
+}
